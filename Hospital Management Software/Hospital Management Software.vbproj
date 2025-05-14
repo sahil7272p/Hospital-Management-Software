@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0019BA9D-92C6-4471-A9AF-9E5B4EB379DF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Hospital_Management_Software.Welcome</StartupObject>
+    <RootNamespace>Hospital_Management_Software</RootNamespace>
+    <AssemblyName>Hospital Management Software</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Hospital Management Software.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Hospital Management Software.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Basic 2005 Power Packs\3.0\Microsoft.VisualBasic.PowerPacks.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.Designer.vb">
+      <DependentUpon>About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDoctor.Designer.vb">
+      <DependentUpon>AddDoctor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddDoctor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddRoom.Designer.vb">
+      <DependentUpon>AddRoom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddRoom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="opdbill.Designer.vb">
+      <DependentUpon>opdbill.vb</DependentUpon>
+    </Compile>
+    <Compile Include="opdbill.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatewiseOPD.Designer.vb">
+      <DependentUpon>DatewiseOPD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DatewiseOPD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatewiseTest.Designer.vb">
+      <DependentUpon>DatewiseTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DatewiseTest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DateWiseXray.Designer.vb">
+      <DependentUpon>DateWiseXray.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DateWiseXray.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteOPD.Designer.vb">
+      <DependentUpon>DeleteOPD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteOPD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteRoom.Designer.vb">
+      <DependentUpon>DeleteRoom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteRoom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteTest.Designer.vb">
+      <DependentUpon>DeleteTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteTest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deletexray.Designer.vb">
+      <DependentUpon>Deletexray.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Deletexray.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="labtest.Designer.vb">
+      <DependentUpon>labtest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="labtest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="labtestbill.Designer.vb">
+      <DependentUpon>labtestbill.vb</DependentUpon>
+    </Compile>
+    <Compile Include="labtestbill.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LabTestBilling.Designer.vb">
+      <DependentUpon>LabTestBilling.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LabTestBilling.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="OPD.Designer.vb">
+      <DependentUpon>OPD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OPD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OPDBilling.Designer.vb">
+      <DependentUpon>OPDBilling.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OPDBilling.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoomBill.Designer.vb">
+      <DependentUpon>RoomBill.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RoomBill.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoomBilling.Designer.vb">
+      <DependentUpon>RoomBilling.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RoomBilling.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Start.Designer.vb">
+      <DependentUpon>Start.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Start.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Home.Designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateOPD.Designer.vb">
+      <DependentUpon>UpdateOPD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateOPD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Updateroom.Designer.vb">
+      <DependentUpon>Updateroom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Updateroom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateTest.Designer.vb">
+      <DependentUpon>UpdateTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateTest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Updatexray.Designer.vb">
+      <DependentUpon>Updatexray.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Updatexray.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewallOPD.Designer.vb">
+      <DependentUpon>ViewallOPD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewallOPD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewAllRoom.Designer.vb">
+      <DependentUpon>ViewAllRoom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewAllRoom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewallTest.Designer.vb">
+      <DependentUpon>ViewallTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewallTest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Viewallxray.Designer.vb">
+      <DependentUpon>Viewallxray.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Viewallxray.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewDate.Designer.vb">
+      <DependentUpon>ViewDate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewDate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewDate2.Designer.vb">
+      <DependentUpon>ViewDate2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewDate2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewDate3.Designer.vb">
+      <DependentUpon>ViewDate3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewDate3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewDate4.Designer.vb">
+      <DependentUpon>ViewDate4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewDate4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DateWiseRoom.Designer.vb">
+      <DependentUpon>DateWiseRoom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DateWiseRoom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewDoctor.Designer.vb">
+      <DependentUpon>ViewDoctor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewDoctor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome.Designer.vb">
+      <DependentUpon>Welcome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xray.Designer.vb">
+      <DependentUpon>Xray.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Xray.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="xraybill.Designer.vb">
+      <DependentUpon>xraybill.vb</DependentUpon>
+    </Compile>
+    <Compile Include="xraybill.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XrayBilling.Designer.vb">
+      <DependentUpon>XrayBilling.vb</DependentUpon>
+    </Compile>
+    <Compile Include="XrayBilling.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddDoctor.resx">
+      <DependentUpon>AddDoctor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddRoom.resx">
+      <DependentUpon>AddRoom.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="opdbill.resx">
+      <DependentUpon>opdbill.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatewiseOPD.resx">
+      <DependentUpon>DatewiseOPD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatewiseTest.resx">
+      <DependentUpon>DatewiseTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DateWiseXray.resx">
+      <DependentUpon>DateWiseXray.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteOPD.resx">
+      <DependentUpon>DeleteOPD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteRoom.resx">
+      <DependentUpon>DeleteRoom.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteTest.resx">
+      <DependentUpon>DeleteTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deletexray.resx">
+      <DependentUpon>Deletexray.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="labtest.resx">
+      <DependentUpon>labtest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="labtestbill.resx">
+      <DependentUpon>labtestbill.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LabTestBilling.resx">
+      <DependentUpon>LabTestBilling.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OPD.resx">
+      <DependentUpon>OPD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OPDBilling.resx">
+      <DependentUpon>OPDBilling.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoomBill.resx">
+      <DependentUpon>RoomBill.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoomBilling.resx">
+      <DependentUpon>RoomBilling.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Start.resx">
+      <DependentUpon>Start.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateOPD.resx">
+      <DependentUpon>UpdateOPD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Updateroom.resx">
+      <DependentUpon>Updateroom.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateTest.resx">
+      <DependentUpon>UpdateTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Updatexray.resx">
+      <DependentUpon>Updatexray.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewallOPD.resx">
+      <DependentUpon>ViewallOPD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewAllRoom.resx">
+      <DependentUpon>ViewAllRoom.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewallTest.resx">
+      <DependentUpon>ViewallTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Viewallxray.resx">
+      <DependentUpon>Viewallxray.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewDate.resx">
+      <DependentUpon>ViewDate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewDate2.resx">
+      <DependentUpon>ViewDate2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewDate3.resx">
+      <DependentUpon>ViewDate3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewDate4.resx">
+      <DependentUpon>ViewDate4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DateWiseRoom.resx">
+      <DependentUpon>DateWiseRoom.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewDoctor.resx">
+      <DependentUpon>ViewDoctor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome.resx">
+      <DependentUpon>Welcome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xray.resx">
+      <DependentUpon>Xray.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="xraybill.resx">
+      <DependentUpon>xraybill.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XrayBilling.resx">
+      <DependentUpon>XrayBilling.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3141.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\[freepicdownloader.com]-care-health-body-icon-simple-vector-xray-person-image-normal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit-clipart-exit-button-exit-button-icon-png--m2i8b1H7G6H7d3K9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0923d5d3-dcf6-4a8f-af37-4252a562d9f11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2025-03-19 at 11.53.49_036df6f51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xray doctor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_freepicdownloader.com_-laboratory-glass-icon-normal-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11596392.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
