@@ -56,7 +56,7 @@ No part of this project may be copied, distributed, modified, or reused without 
 
 ⚠️ Important Notes
 
-👉 This is proprietary software
-👉 Do not use or distribute without permission
-👉 All rights reserved and legally protected
+👉 This is proprietary software 
+👉 Do not use or distribute without permission 
+👉 All rights reserved and legally protected 
 👉 Contact me for collaboration or permission requests
