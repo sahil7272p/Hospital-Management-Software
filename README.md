@@ -1,6 +1,3 @@
-Here's a beautifully formatted version of your Hospital Management System project announcement with proper emoji headings and design:
-
----
 
 # 🏥 **Hospital Management System**  
 
@@ -61,6 +58,4 @@ Excited to share my first major project! The **Hospital Management System** is a
 - 🔒 **Legally protected** under intellectual property laws.  
 - 🤝 **Contact me** for collaboration or permission requests.  
 
----
 
-Would you like any refinements or additional sections? 😊
