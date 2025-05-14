@@ -4,7 +4,7 @@ Hospital Management System is a powerful and user-friendly solution built using 
 
 📄 Project Report
 Download the full project report here:
-👉 https://drive.google.com/drive/folders/136LWWK9PV7Ds4eByf8q-qXgq40tYFIRG?usp=drive_link
+👉 https://drive.google.com/file/d/1vuU-1Djm_QVZMY2-mPo6rR-BshAO08d7/view?usp=sharing
 
 🚀 Features
 
