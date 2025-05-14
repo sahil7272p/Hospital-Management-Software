@@ -1,41 +1,39 @@
 🩺 Hospital Management System
-Excited to share my first major project!
-Hospital Management System is a powerful and user-friendly solution built using VB.NET, designed to simplify and streamline essential healthcare operations. Whether it’s managing patient records or generating bills, this system helps hospitals operate more efficiently.
+🚀 Excited to share my first major project!
+The Hospital Management System is a comprehensive and user-friendly desktop application built using VB.NET.
+It simplifies and automates core hospital operations — from patient registration to billing — ensuring efficiency and accuracy.
 
 📄 Project Report
-Download the full project report here:
+📥 Download the full project report here:
 👉 https://drive.google.com/file/d/1vuU-1Djm_QVZMY2-mPo6rR-BshAO08d7/view?usp=sharing
 
-🚀 Features
-
-🧑‍⚕️ Patient Registration & Record Management
+✨ Key Features
+🧑‍⚕️ Patient Registration & Records Management
 
 📅 Appointment Scheduling
 
-🩻 Doctor & X-Ray Management
+🩻 Doctor & X-Ray Module
 
-🧪 Lab Test Report Handling
+🧪 Lab Test Report Management
 
 🛏️ Room Allotment System
 
-💳 Automated Billing System
+💳 Automated Billing Generation
 
-🔍 Search & Filter for Patients & Reports
+🔍 Patient Search & Filter Options
 
-🖥️ Intuitive, User-Friendly Interface
+🖥️ Clean and User-Friendly UI/UX
 
-This project handles modules such as OPD, X-Ray, Lab Tests, Room Allotment, Doctor Management, and Billing.
+✔️ Covers: OPD, Doctor Management, Lab Tests, X-Ray, Room Allotment, Billing & Reports
 
 🛠️ Tech Stack
-
 Frontend: VB.NET (Windows Forms)
 
-Backend/Database: MS Access
+Database: MS Access
 
 Platform: Windows Desktop Application
 
-📌 How to Use
-
+🧭 How to Use
 Clone or download the repository
 
 Set up the MS Access database and update the connection string
@@ -46,13 +44,13 @@ Run the application and start managing hospital operations
 
 📜 License
 All Rights Reserved
-© 2025 Sahil
+© 2025 Saksham
 
-This software and its source code are proprietary and confidential. No part of this project may be copied, distributed, modified, or reused without the prior written permission of the author.
+This software and its source code are proprietary and confidential.
+No part of this project may be copied, distributed, modified, or reused without the prior written permission of the author.
 
 ⚠️ Important Notes
-
 👉 This is proprietary software
 👉 Do not use or distribute without permission
-👉 All rights are reserved and protected by law
-👉 Contact me directly for collaboration or permission
+👉 All rights reserved and legally protected
+👉 Contact me for collaboration or permission requests
