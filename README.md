@@ -9,6 +9,7 @@ It simplifies and automates core hospital operations — from patient registrati
 👉 https://drive.google.com/file/d/1vuU-1Djm_QVZMY2-mPo6rR-BshAO08d7/view?usp=sharing
 
 ✨ Key Features
+
 🧑‍⚕️ Patient Registration & Records Management
 
 📅 Appointment Scheduling
@@ -28,6 +29,7 @@ It simplifies and automates core hospital operations — from patient registrati
 ✔️ Covers: OPD, Doctor Management, Lab Tests, X-Ray, Room Allotment, Billing & Reports
 
 🛠️ Tech Stack
+
 Frontend: VB.NET (Windows Forms)
 
 Database: MS Access
@@ -35,6 +37,7 @@ Database: MS Access
 Platform: Windows Desktop Application
 
 🧭 How to Use
+
 Clone or download the repository
 
 Set up the MS Access database and update the connection string
@@ -44,8 +47,9 @@ Open the solution in Visual Studio
 Run the application and start managing hospital operations
 
 📜 License
+
 All Rights Reserved
-© 2025 Saksham
+© 2025 Sahil
 
 This software and its source code are proprietary and confidential.
 No part of this project may be copied, distributed, modified, or reused without the prior written permission of the author.
